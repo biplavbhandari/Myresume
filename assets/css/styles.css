@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+nav ul{
+    background-color: black;
+    list-style-type: none;
+    display: flex;
+  justify-content: flex-end;
+  height :25px;
+  
+}
+nav ul li{
+    padding: 0 9px;
+    cursor: pointer;
+ 
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color:turquoise;
+}
+.container{
+    margin: 20px auto;
+    max-width: 1200px;
+    padding :20px;
+}
